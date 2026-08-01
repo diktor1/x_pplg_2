@@ -179,7 +179,7 @@
 }
 .logo-instagram{
   position: absolute;
-  background-image: url('/png/logo-ig.png');
+  background-image: url('/png/logo-ig.webp');
   background-position: flex-start;
   background-size: cover;
   display: block;
@@ -192,7 +192,7 @@
 }
 .logo-tiktok{
   position: absolute;
-  background-image: url('/png/tiktok-logo.png');
+  background-image: url('/png/tiktok-logo.webp');
   background-position: flex-start;
   background-size: cover;
   display: block;
@@ -760,7 +760,7 @@ nav ul li a:hover {
   display: block;
   width: 100%;
   aspect-ratio: 5/1;
-  background-image: url('/png/foto-kelas.png');
+  background-image: url('/png/foto-kelas.webp');
   background-size: cover;
   background-position: center;
   border-radius: 15px;
