@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Nexus X PPLG B SMKN 3 Metro | Anggota Kelas, Perangkat & Galeri Foto</title>
+   <meta name="description" content="Website resmi kelas X PPLG B Nexus SMKN 3 Metro yang berisi daftar anggota siswa, perangkat kelas, galeri foto, jadwal, dan informasi kelas.">
+   <meta name="keywords" content="Nexus X PPLG B, SMKN 3 Metro, PPLG, anggota kelas, perangkat kelas, galeri foto">
+   <meta name="author" content=" nexus x pplg b smk negeri 3 metro">
+    <link rel="stylesheet" href="css-header.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="nama">
+        <div class="kelas">N e x u s <span>10.2</span></div>
+        <div class="laman">SMK NEGERI 3 METRO</div>
+    </div>
+
+    <button class="menu-btn">&#9776;</button>
+</header>
+
+<div class="sidebar">
+    <a href="#"> PROFIL</a>
+    <a href="#"> ANGGOTA</a>
+    <a href="#"> STRUKTUR</a>
+    <a href="#"> GALERI</a>
+</div>
+
+<script>
+const tombol = document.querySelector(".menu-btn");
+const sidebar = document.querySelector(".sidebar");
+
+tombol.addEventListener("click", function () {
+    sidebar.classList.toggle("active");
+});
+</script>
+
+</body>
+</html>
